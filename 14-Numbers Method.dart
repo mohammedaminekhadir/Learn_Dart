@@ -55,7 +55,7 @@ void main() {
   //num.parse
   print('s-----(${num.parse(s)})');
   print('s------(${num.parse(s) is int})');
-print('___________________________(num.parse)________________________');
+print('___________________________(NaN)________________________');
 //isNaN
 double number1 = 42.0;
 double number2 = double.nan; // قيمة ليست عددية
