@@ -7,7 +7,7 @@ void main() {
   String name3 = 'ahmed';
   String name4 = '';
   String name5 = 'how are you';
-  String name6 ='amine'
+  String name6 ='amine';
   //(name + '  ' + name3 + '  ' + '${i}');
   print(name + '   ' + name3 + '  ' + '${i}');
   print('_____________________________(Empty)____________________________');
@@ -30,7 +30,7 @@ void main() {
   print(name.compareTo('waelell'));
   print('______________________________(split)_____________________________');
   //split
-  print(name6.split('');
+  print(name6.split(''));
   print('____________________________(replaceAll)__________________________');
 //replaceAll
   print(name5.replaceAll('you', 'we'));
