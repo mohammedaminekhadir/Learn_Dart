@@ -59,4 +59,11 @@ void main() {
   List matier = ['math', 'svt', 'physique', 'chimique', 'sport'];
   matier.removeRange(1, 4);
   print(matier);
-}
+print('_____________________________take)__________________________');
+  List numbers = ['amine', 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+  // Utilisation de take pour extraire les 3 premiers éléments de la liste
+  Iterable firstThreeNumbers = numbers.take(3);
+
+  print(firstThreeNumbers); // Affiche : (1, 2, 3)
+}}
