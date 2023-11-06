@@ -31,6 +31,13 @@ void main() {
   print('______________________________(split)_____________________________');
   //split
   print(name6.split(''));
+  print('______________________________(join)_____________________________');
+  //join
+   String a = 'amine';
+  List i = a.split('');
+  String j = i.join('');
+  print(i);
+  print(j);
   print('____________________________(replaceAll)__________________________');
 //replaceAll
   print(name5.replaceAll('you', 'we'));
