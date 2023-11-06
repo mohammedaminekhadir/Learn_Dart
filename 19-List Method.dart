@@ -66,4 +66,4 @@ print('_____________________________take)__________________________');
   Iterable firstThreeNumbers = numbers.take(3);
 
   print(firstThreeNumbers); // Affiche : (1, 2, 3)
-}}
+}
