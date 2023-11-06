@@ -44,7 +44,7 @@ void main() {
   List mal = ['yassin', 'rachid', 'mohammed'];
   mal.remove('yassin');
   print(mal);
-  print('_____________________________(remove)_____________________________');
+  print('_____________________________(removeAt)_____________________________');
 //removeAt
   List cours = ['ph', 'assid', 'devellopement'];
   cours.removeAt(2);
