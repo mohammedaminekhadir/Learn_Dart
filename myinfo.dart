@@ -48,7 +48,7 @@ void main() {
       print('you are sur enter y else n');
       String? Exit = stdin.readLineSync();
       if (Exit == 'y') {
-        E = 'y';
+        exit(0);
       }
       ;
     } else if (com == 'clear') {
@@ -78,11 +78,11 @@ void main() {
         com != 'myinfo') {
       print(' command not found');
     }
-  } while (E != 'y');
+  } while (true);
 }
 
 Map info = {};
-String? E;
+
 List help = [
   'name :        show name\n',
   'firstname :        show firstname\n',
