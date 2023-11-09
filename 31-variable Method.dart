@@ -15,7 +15,7 @@ void main() {
   print('__________________________(whereType)__________________________');
 //4-whereType<vartype>();
   List info = ['age', 17, 'years', 2000, 'num', 0777];
-  var my = info.whereType<int>();
+  Iterable my = info.whereType<int>();
   print(my);
   print('__________________________(firstwhire)__________________________');
 //5-firstwhire((element) =>condition);
@@ -30,27 +30,27 @@ void main() {
   ];
   String mystring = 'amine';
 //6-firstWhere
-  var myvar = mylist.firstWhere((ex) => ex > 10);
+  int myvar = mylist.firstWhere((ex) => ex > 10);
   print(myvar);
   print('_____________________________(any)________________________________');
 //7-any((element)=> condition)
-  var any = mylist.any((el) => el < 10);
+  bool any = mylist.any((el) => el < 10);
   print(any);
   print('_____________________________(evry)________________________________');
 //8-evry((element) => condition)
-  var evry = mylist.every((el) => el > 0);
+  bool evry = mylist.every((el) => el > 0);
   print(evry);
   print('_____________________________(take)________________________________');
 //9-take
-  var take = mylist.take(4);
+  Iterable take = mylist.take(4);
   print(take);
   print('___________________________(where)_____________________________');
 //10-where((element) => condition)
-  var where = mylist.where((el) => el > 30);
+  Iterable where = mylist.where((el) => el > 30);
   print(where);
   print('___________________________(intexWhere)__________________________');
 //11-intexWhere((el) => condition)
-  var intex = mylist.indexWhere((el) => el > 20);
+  int intex = mylist.indexWhere((el) => el > 20);
   print(intex);
   print('___________________________(startsWiht)__________________________');
 //12-startsWiht('')
@@ -77,3 +77,4 @@ void main() {
   List family1 = mylist2.where((ele) => ele.startsWith('k')).toList();
   print(family1);
 }
+
