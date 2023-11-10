@@ -16,11 +16,11 @@ void main() {
 
 
 
-/*Iterable
-[1] object contiants data that can be Iterated Upon
+//!Iterable
+/*[1] object contiants data that can be Iterated Upon
 [2] Example [list , set]
 
-Iterator
+//!Iterator
 [1] object used to Used over Iterable Using MoveNext Return 1 Element at a time
 [2] you can Generate Iterable From Iterator Method
 [3] Loop Already calls Iterator
